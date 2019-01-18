@@ -52,3 +52,9 @@ terraform plan
 terraform apply
 
 ```
+
+### Removing the entire environment
+
+To remove all created machines and settings, simply execute the command
+
+`terraform destroy`
