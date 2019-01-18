@@ -35,7 +35,7 @@ Whenever the average processing time of our Auto Scaling Group falls below 10% d
 git clone https://github.com/rafaelaceno/opstest
 
 ```
-- Post the project springbot.zip in a s3 bucket with visualisation permission to the user account
+- Post the project `springbot.zip` in a s3 bucket with visualisation permission to the user account
 - Edit the `variables.tf` file with the SSH public key location 
 - Edit the `variables.tf `file with the name of the VPC that will be used for this infrastructure
 - Edit the `variables.tf` file with the name of bucket s3 that is located the project spring_bot.zip
