@@ -5,7 +5,7 @@
 
 Script Terraform that when executed will go
 - Create a Lauch Configuration
-- link the Lanch Configuration to an Auto Scalling Group
+- Link the Lanch Configuration to an Auto Scalling Group
 - Placing Scalling with instances in Multi-AZ
 - Creates an ELB by listening on port 80
 - Link Auto Scalling Group to Load Balancer
@@ -50,10 +50,10 @@ terraform apply
 ```
 ### One way to be able to simulate Auto Scalling rules
 
-> - Access the machine EC2 by SSH
-> - install stress tool `sudo yum install -y stress`
-> - run the stress tool with the command `stress -c 1 --vm 2` and wait a few minutes to verify the new instance is started
-> - To view the overhead just install and run the `htop` tool
+- Access the machine EC2 by SSH
+- Install stress tool `sudo yum install -y stress`
+- Run the stress tool with the command `stress -c 1 --vm 2` and wait a few minutes to verify the new instance is started
+- To view the overhead just install and run the `htop` tool
 
 ### Another way to test autoscaling is to simply Terminating an instance.
 
