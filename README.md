@@ -22,7 +22,7 @@ Whenever the average processing time of our Auto Scaling Group falls below 10% d
 ### Requirements
 - [Terraform](https://www.terraform.io/downloads.html)
 - [AWS Account](https://aws.amazon.com/)
-- [SSH Key](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
+- [Amazon EC2 Key Pairs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
 
 ### Architecture
 ![Architecture](https://user-images.githubusercontent.com/32931856/51339968-ead70780-1a74-11e9-9a31-fe0892b65e59.png)
